@@ -1,10 +1,21 @@
-Usage:
-    
+PyMPD - A MPD Library
+=====================
+
+    * by:  brian reily
+    * url: http://brianreily.com/projects/pympd
+
+status
+------
+    * PyMPD was written a while ago and is no longer being
+      actively maintained/developed.  No efforts will be made
+      to keep up with changes/additions to MPD's protocol.  It
+      works at the moment, though.
+
+usage
+-----
     >>> import mpd
     >>> m = mpd.MPD() # or m = mpd.MPD(host='192.168.1.131', port=6600)
     >>> m.status()
         ...data sent back...
     >>> m.find('artist Disturbed')
         ...data sent back...
-
-        
