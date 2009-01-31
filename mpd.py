@@ -22,11 +22,7 @@ class AckException(Exception): pass
 class ConnException(Exception): pass
 
 class MPD(object):
-    def __init__(self, host='192.168.1.131', port=6600):
-        """
-        Takes host and port arguments.
-        Defaults to 192.168.1.131 and 6600.
-        """
+    def __init__(self, host='127.0.0.1', port=6600):
         self.host = host
         self.port = port
         try:

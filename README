@@ -14,7 +14,7 @@ status
 usage
 -----
     >>> import mpd
-    >>> m = mpd.MPD() # or m = mpd.MPD(host='192.168.1.131', port=6600)
+    >>> m = mpd.MPD() # or m = mpd.MPD(host='127.0.0.1', port=6600)
     >>> m.status()
         ...data sent back...
     >>> m.find('artist Disturbed')
