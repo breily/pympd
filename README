@@ -11,6 +11,9 @@ status
       to keep up with changes/additions to MPD's protocol.  It
       works at the moment, though.
 
+    * It was long enough ago that I'im not sure what the difference
+      between version 1 and 2 is - both probably work though.
+
 usage
 -----
     >>> import mpd
